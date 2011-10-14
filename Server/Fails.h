@@ -1,0 +1,15 @@
+//fails.h
+#ifndef FAILS_H
+#define FAILS_H
+
+#define ERROR_ADDR_SET			-50
+#define ERROR_ACCEPTOR_OPEN		-51
+#define ERROR_ACCEPTOR_ACCEPT	-52
+#define ERROR_GET_HOST_NAME		-53
+#define ERROR_ADDR_TO_STRING	-54
+#define ERROR_SEND_SERVER_NAME	-55
+#define ERROR_DEALER_SEND_LIST	-56
+#define ERROR_BAD_PARAMETERS	-57
+#define ERROR_BIND_PORT			-58
+
+#endif
