@@ -7,6 +7,7 @@
 #include <vector>
 #include "Connected_Player.h"
 #include "Game.h"
+#include "Const.h"
 
 #include "ace/INET_Addr.h"
 #include "ace/SOCK_Stream.h"
@@ -37,12 +38,6 @@ private:
 	std::vector<Game> games;
 };
 
-const int default_port = 11111;
-const int string_length = 200;
 
-const std::string dealer_name_key = "DN";
-const std::string games_key = "GM";
-const std::string delimiter = "~$";
-const std::string player_name_key = "PN";
 
 #endif

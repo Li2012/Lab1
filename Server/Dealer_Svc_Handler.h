@@ -9,7 +9,9 @@
 
 class Dealer_Svc_Handler : public ACE_Svc_Handler<ACE_SOCK_Stream, ACE_NULL_SYNCH>
 {
-	
+	virtual int handle_input(ACE_HANDLE);
+	virtual int handle_output(ACE_HANDLE);
+//	virtual int handle_close();
 };
 
 #endif
